@@ -1,0 +1,18 @@
+binance:
+  websocket:
+    base_url: 
+    streams:
+    
+    reconnect:
+      enabled: true
+      max_attempts: 10
+      delay_ms: 5000
+
+logging:
+  level: "info"
+  console_output: true
+  file_output: false
+
+application:
+  update_interval_ms: 1000
+  max_messages: 1000
